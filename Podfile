@@ -3,7 +3,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 abstract_target 'AllPods' do
-    pod 'RealmSwift', '3.0.0-beta'
+    pod 'RealmSwift', '~> 3.0'
     
     target 'QueryGenie_iOS' do
         platform :ios, '8.0'
